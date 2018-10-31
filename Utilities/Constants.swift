@@ -8,3 +8,5 @@
 
 import Foundation
 let TO_LOGIN = "toLoginScreenSegue"
+let CREATE_ACCT = "toCreateAccountSegue"
+let UNWIND_CHANNEL = "unwindToChannel"
