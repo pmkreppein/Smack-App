@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A48C140218A430F0077A51B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48C13F218A430F0077A51B /* Constants.swift */; };
+		3A48C142218A48B00077A51B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48C141218A48B00077A51B /* LoginViewController.swift */; };
 		3A516556218A285700FBD422 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A516555218A285700FBD422 /* SWRevealViewController.m */; };
 		3A51655B218A2B7000FBD422 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51655A218A2B7000FBD422 /* ChatViewController.swift */; };
 		3A51655D218A2B7E00FBD422 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51655C218A2B7E00FBD422 /* ChannelViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A48C13F218A430F0077A51B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A48C141218A48B00077A51B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3A516553218A285100FBD422 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A516554218A285700FBD422 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		3A516555218A285700FBD422 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A48C13E218A42F40077A51B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A48C13F218A430F0077A51B /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3A516552218A264100FBD422 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +75,7 @@
 			children = (
 				3A51655A218A2B7000FBD422 /* ChatViewController.swift */,
 				3A51655C218A2B7E00FBD422 /* ChannelViewController.swift */,
+				3A48C141218A48B00077A51B /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +98,7 @@
 		3A7DAD6B218A14D500F07FA7 = {
 			isa = PBXGroup;
 			children = (
+				3A48C13E218A42F40077A51B /* Utilities */,
 				3A516559218A2B4A00FBD422 /* Model */,
 				3A516558218A2B4400FBD422 /* View */,
 				3A516557218A2B3E00FBD422 /* Controller */,
@@ -252,11 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A48C142218A48B00077A51B /* LoginViewController.swift in Sources */,
 				3A7DAD78218A14D500F07FA7 /* AppDelegate.swift in Sources */,
 				3A51655B218A2B7000FBD422 /* ChatViewController.swift in Sources */,
 				3A51655F218A35D500FBD422 /* GradientView.swift in Sources */,
 				3A51655D218A2B7E00FBD422 /* ChannelViewController.swift in Sources */,
 				3A516556218A285700FBD422 /* SWRevealViewController.m in Sources */,
+				3A48C140218A430F0077A51B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
